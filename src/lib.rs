@@ -1,1 +1,1 @@
-mod bitcoin;
+mod proof_of_work;
