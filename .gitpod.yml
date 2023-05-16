@@ -1,0 +1,8 @@
+image: rust:latest
+
+tasks:
+  - name: Install dependencies
+    command: cargo fetch
+
+  - name: Run tests
+    command: cargo test
